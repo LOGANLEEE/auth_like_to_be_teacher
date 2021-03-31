@@ -10,9 +10,9 @@
 		"noImplicitAny": true,
 		"baseUrl": ".",
 		"paths": {
-			"@router/*": ["./src/router/*"]
+			"@router/*": ["./src/router/*"],
 		}
 	},
 	"include": ["./src"],
-	"exclude": ["node_modules"]
+	"exclude": ["./node_modules"]
 }

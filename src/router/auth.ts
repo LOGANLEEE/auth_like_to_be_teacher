@@ -7,12 +7,19 @@ auth_router.use(function (req, res, next) {
 	next();
 });
 
-auth_router.get('/', (req: express.Request, res: express.Response) => {
+auth_router.post('/login', (req: express.Request, res: express.Response) => {
 	res.status(200);
-	res.send('auth!!');
+	console.log(req.body);
+	res.send('lgoin');
 });
 
 auth_router.post('/signup', (req: express.Request, res: express.Response) => {
+	res.status(200);
 	console.log(req.body);
-	res.send('auth!!');
+	res.send('signup');
 });
+
+// auth_router.get('/', (req: express.Request, res: express.Response) => {
+// 	res.status(500);
+// 	res.send('specify address');
+// });

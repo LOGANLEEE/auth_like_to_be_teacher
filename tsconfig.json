@@ -5,12 +5,14 @@
 		"rootDir": "./",
 		"outDir": "./build",
 		"esModuleInterop": true,
+		"strictNullChecks": false,
 		"strict": true,
 		"skipLibCheck": true,
 		"noImplicitAny": true,
 		"baseUrl": ".",
 		"paths": {
 			"@router/*": ["./src/router/*"],
+			"@util/*": ["./src/util/*"]
 		}
 	},
 	"include": ["./src"],

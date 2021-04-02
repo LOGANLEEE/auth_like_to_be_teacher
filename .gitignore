@@ -1,5 +1,5 @@
-#pgdata
-./docker/pg_data/*
+#pg_data
+docker/pg_data/*
 
 # Logs
 logs
@@ -105,3 +105,5 @@ dist
 
 # TernJS port file
 .tern-port
+.gitignore
+
